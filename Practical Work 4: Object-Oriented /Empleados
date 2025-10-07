@@ -30,7 +30,7 @@ public class Empleados {
         salario = 1000000;
     }
     
-    public int asignar_id(){
+    private int asignar_id(){
         return totalEmpleados;
     }
     
