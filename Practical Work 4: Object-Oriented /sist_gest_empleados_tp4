@@ -1,0 +1,36 @@
+/**
+ * Autor: Martin Monzon
+ * Fecha: 7 oct 2025
+ * Clase: sist_gest_empleados_tp4
+ */
+
+package tp_4;
+
+public class sist_gest_empleados_tp4 {
+
+    public static void main(String[] args) {
+        Empleados emp1 = new Empleados(1, "Mengano Jimenez", "Programador", 1500000);
+        Empleados emp2 = new Empleados(2, "Mora Lopez", "Secretaria", 1250000);
+        Empleados emp3 = new Empleados("Julian Alvarado", "Contador");
+        Empleados emp4 = new Empleados("Lara Perez", "Abogada");
+        
+        System.out.println(emp1);
+        System.out.println(emp2);
+        System.out.println(emp3);
+        System.out.println(emp4);
+        
+        emp2.actualizarSalario(12.3);
+        emp3.actualizarSalario(100000);
+        emp4.actualizarSalario(2.5);
+        emp1.actualizarSalario(-200000);
+        
+        System.out.println("");
+        System.out.println(emp1);
+        System.out.println(emp2);
+        System.out.println(emp3);
+        System.out.println(emp4);
+        
+        System.out.println("");
+        emp1.mostrarTotalEmpleados();
+    }
+}
