@@ -11,15 +11,15 @@ public class Main_ej3 {
     public static void main(String[] args) {
 
         // Creo un autor con nombre y nacionalidad
-        Autor autorNuevo = new Autor("Gabriel Garcia Marquez", "Colombiana");
+        Autor autorNuevo = new Autor("Michael Crichton", "Estadounidense");
         
         // Creo la editorial con nombre y dirección
-        Editorial editorialNueva = new Editorial("Sudamericana", "Av. Corrientes 532");
+        Editorial editorialNueva = new Editorial("Parana Editorial", "Av. ramirez");
 
         // Creo el libro pasando todos los objetos anteriores
         Libro libroMagico = new Libro(
-            "Cien anios de soledad", 
-            "978-0307474474", 
+            "Jurassic Park", 
+            "222345-23331", 
             autorNuevo, 
             editorialNueva
         );
