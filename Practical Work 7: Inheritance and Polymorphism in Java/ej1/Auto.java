@@ -3,7 +3,7 @@
  * Fecha: 21 nov 2025
  * Clase: Auto
  */
-package ejer3;
+package ejer1;
 
 public class Auto extends Vehiculo {
     private final int puertas;
