@@ -11,14 +11,14 @@ public class Main_ej8 {
     public static void main(String[] args) {
 
         // Creo un usuario que firmará el documento
-        Usuario usuarioFirmante = new Usuario("Ricardo Diaz", "rdiaz@gmail.com");
+        Usuario usuarioFirmante = new Usuario("Martin Monzon", "martinmonzon@gmail.com");
        
         // Creo el documento y dentro creo su FirmaDigital
         Documento contrato = new Documento(
             "Contrato Laboral", 
             "El presente documento establece:", 
-            "RDiaZ",
-            "27-09-2025", 
+            "MM MONZON",
+            "27-11-2025", 
             usuarioFirmante 
         );
         
