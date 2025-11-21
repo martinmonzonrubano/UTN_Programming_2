@@ -1,11 +1,11 @@
 /**
  * Autor: Martin Monzon
  * Fecha: 21 nov 2025
- * Clase: Main_ej3
+ * Clase: Main_ej1
  */
-package ejer3;
+package ejer1;
 
-public class Main_ej3 {
+public class Main_ej1 {
 
     public static void main(String[] args) {
 
