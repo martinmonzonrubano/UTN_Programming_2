@@ -11,15 +11,15 @@ public class Main_ej7 {
     public static void main(String[] args) {
 
         // Motor creado para el vehículo
-        Motor motorNuevo = new Motor("Diesel", "ABC-98765");
+        Motor motorNuevo = new Motor("Nafta Premium", "XZL-55210");
 
         // Conductor cargado
-        Conductor chofer = new Conductor("Julia Perez", "1124931");
+        Conductor chofer = new Conductor("Federico Ramos", "9843127");
 
         // Vehículo con patente, modelo y motor
         Vehiculo miAuto = new Vehiculo(
-            "GHA-324",
-            "Toyota Corolla",
+            "KTD-781",
+            "Honda Civic",
             motorNuevo
         );
 
@@ -32,3 +32,4 @@ public class Main_ej7 {
         chofer.mostrarDatosCompletos();
     }
 }
+
