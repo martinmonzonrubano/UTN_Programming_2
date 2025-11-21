@@ -3,7 +3,7 @@
  * Fecha: 21 nov 2025
  * Clase: Vehiculo
  */
-package ejer3;
+package ejer1;
 
 public class Vehiculo {
     private final String marca;
