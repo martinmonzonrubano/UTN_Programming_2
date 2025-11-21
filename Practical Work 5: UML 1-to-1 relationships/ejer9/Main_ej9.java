@@ -10,13 +10,13 @@ public class Main {
     public static void main(String[] args) {
 
         // Creo un paciente y su profesional médico
-        Paciente pacienteNuevo = new Paciente("Lucia Rodriguez", "Nobis N400");
-        Profesional medico = new Profesional("Dr. Nicolas Usedo", "Cardiologia");
+        Paciente pacienteNuevo = new Paciente("Brenda Villalba", "San Martín 842");
+        Profesional medico = new Profesional("Dra. Julieta Mendez", "Dermatología");
 
         // Creo la cita médica pasando paciente y profesional
         CitaMedica turno = new CitaMedica(
-            "20-11-2025", 
-            "16:00", 
+            "05-12-2025", 
+            "09:45", 
             pacienteNuevo, 
             medico
         );
@@ -25,3 +25,4 @@ public class Main {
         turno.mostrarInfoCompleta();
     }
 }
+
