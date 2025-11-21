@@ -4,6 +4,8 @@
  * Clase: Vehiculo
  */
 
+package ej7;
+
 public class Vehiculo {
 
     private final String patente;
