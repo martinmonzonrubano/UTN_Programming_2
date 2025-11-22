@@ -3,7 +3,7 @@
  * Fecha: 22 nov 2025
  * Clase: TarjetaCredito
  */
-package ejer8;
+package parte1;
 
 // Pago con tarjeta que aplica un 10% de descuento
 public class TarjetaCredito implements Pago, PagoConDescuento {
