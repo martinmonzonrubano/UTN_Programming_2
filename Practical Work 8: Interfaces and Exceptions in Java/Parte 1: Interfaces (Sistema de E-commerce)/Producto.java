@@ -3,7 +3,7 @@
  * Fecha: 22 nov 2025
  * Clase: Producto
  */
-package ejer8;
+package parte1;
 
 // Un producto simple con nombre y precio
 public class Producto implements Pagable {
@@ -25,3 +25,4 @@ public class Producto implements Pagable {
         return precio;
     }
 }
+
