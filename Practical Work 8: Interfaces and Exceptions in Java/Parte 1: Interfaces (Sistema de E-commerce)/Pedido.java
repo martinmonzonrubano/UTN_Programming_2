@@ -3,7 +3,7 @@
  * Fecha: 22 nov 2025
  * Clase: Pedido
  */
-package ejer8;
+package parte1;
 
 import java.util.ArrayList;
 
@@ -36,9 +36,7 @@ public class Pedido implements Pagable {
     @Override
     public double calcularTotal() {
         double total = 0;
-        for (Producto p : productos) {
-            total += p.calcularTotal();
-        }
+        for (Producto p : productos) total += p.calcularTotal();
         return total;
     }
 }
