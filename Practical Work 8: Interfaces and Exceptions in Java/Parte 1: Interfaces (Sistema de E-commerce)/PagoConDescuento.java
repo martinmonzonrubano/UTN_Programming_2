@@ -3,7 +3,7 @@
  * Fecha: 22 nov 2025
  * Clase: PagoConDescuento
  */
-package ejer8;
+package parte1;
 
 // Contrato para medios de pago que permiten descuento
 public interface PagoConDescuento {
