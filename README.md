@@ -9,3 +9,4 @@ Repository containing practical assignments for the Programming 2 course.
 - Practical work 5
 - Practical work 6
 - Practical work 7
+- Practical work 8
