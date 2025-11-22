@@ -3,7 +3,7 @@
  * Fecha: 22 nov 2025
  * Clase: PayPal
  */
-package ejer8;
+package parte1;
 
 // PayPal no tiene descuento
 public class PayPal implements Pago {
@@ -13,3 +13,4 @@ public class PayPal implements Pago {
         System.out.println("Pagando con PayPal... Total: $" + monto);
     }
 }
+
